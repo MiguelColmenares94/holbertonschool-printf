@@ -17,9 +17,9 @@ int pc(va_list);
 int controller(const char *text, va_list lf);
 int selector(const char *text, va_list lf, int *a);
 
-/* _putchar.c */
+/* spf.c */
 int _putchar(char);
-
+int p(char *text);
 /**
  * struct_f - Typedef struct
  *
