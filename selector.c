@@ -32,7 +32,7 @@ int selector(const char *text, va_list lf, int *a)
 	{
 		if (text[*a] == fmtl[c].type)
 		{
-			result = fmtl[c].f(lf);
+			result = fmtl[c].xf(lf);
 			return (result);
 		}
 
