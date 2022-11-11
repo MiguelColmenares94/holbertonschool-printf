@@ -1,7 +1,4 @@
 #include "main.h"
-#include <stdlib.h>
-#include <stdarg.h>
-#include <string.h>
 
 /**
  * _printf - Format input to output
