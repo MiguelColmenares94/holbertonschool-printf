@@ -13,7 +13,7 @@ int selector(const char *text, va_list lf, int *a)
 {
 	int result, c, select_f;
 	fmt fmtl[] = {
-		{'s', print_string}, {'c', print_char}
+		{'s', pstr}, {'c', pc}
 	};
 
 	*a = *a + 1;
