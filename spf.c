@@ -4,7 +4,7 @@
  * p - print char
  * @text: string to be printed
  *
- * Return: lenght of string
+ * Return: print string char by char
  */
 
 int p(char *text)
@@ -17,7 +17,7 @@ int p(char *text)
 		_putchar(text[a]);
 	
 	}
-	++a;
+	a++;
 	return (a);
 }
 
