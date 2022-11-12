@@ -6,7 +6,7 @@
  *
  * Return: integer printed as a string
  **/
-int pi(va_list argum)
+char* pi(va_list argum)
 {
 	char itos[50];
 
