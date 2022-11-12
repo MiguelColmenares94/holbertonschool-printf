@@ -13,7 +13,7 @@ int controller(const char *text, va_list lf)
 	int result, a, spr;
 
 	result = 0;
-	for (a = 0;text[a] != 0; a++)
+	for (a = 0; text[a] != 0; a++)
 	{
 		if (text[a] == '%')
 		{
