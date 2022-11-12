@@ -15,9 +15,8 @@ int p(char *text)
 	while (text[a] != '\0')
 	{
 		_putchar(text[a]);
-	
+	++a;
 	}
-	a++;
 	return (a);
 }
 

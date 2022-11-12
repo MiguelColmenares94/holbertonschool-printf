@@ -28,8 +28,8 @@ int controller(const char *text, va_list lf)
 
 		_putchar(text[a]);
 		result = result + 1;
+		a++;
 	}
-	a++;
 
 	return (result);
 }
