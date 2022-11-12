@@ -13,7 +13,7 @@ int _printf(const char *format, ...);
 /* print format functions */
 int pstr(va_list);
 int pc(va_list);
-int pi(va_list argum);
+char* pi(va_list argum);
 
 /* format controller and format selector */
 int controller(const char *text, va_list lf);
