@@ -10,18 +10,18 @@
 int pi(va_list argum)
 {
 	char *text;
-	int ct;
+	int result;
 
 	text = itos(va_arg(argum, int), 10);
 	if (text != NULL)
 	{
-		text = NULL;
+		result = p(text);
 	}
-	
-	for (ct = 0; text[ct] != '\0'; ct++)
+	else
 	{
-			_putchar(text[ct]);
-	}		
+		result = "NULL";
+	}
+		
 	
-	return (ct);
+	return (result);
 }
