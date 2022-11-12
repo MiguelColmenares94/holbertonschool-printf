@@ -15,10 +15,10 @@ int pi(va_list argum)
 	text = itos(va_arg(argum, int), 10);
 	if (text != NULL)
 	{
-		text = NULL
+		text = NULL;
 	}
 	
-	for (ct = 0; text[count] != '\0'; ct++)
+	for (ct = 0; text[ct] != '\0'; ct++)
 	{
 			_putchar(text[ct]);
 	}		
