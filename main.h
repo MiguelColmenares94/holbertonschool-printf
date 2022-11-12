@@ -9,9 +9,10 @@
 /* _printf.c */
 int _printf(const char *format, ...);
 
-/* print functions */
+/* print format functions */
 int pstr(va_list);
 int pc(va_list);
+int pi(va_list argum);
 
 /* format controller and format selector */
 int controller(const char *text, va_list lf);
