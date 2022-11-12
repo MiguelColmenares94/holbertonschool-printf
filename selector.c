@@ -12,8 +12,10 @@
 int selector(const char *text, va_list lf, int *a)
 {
 	int result, c;
+
 	fmt fmtl[] = {
-		{'s', pstr}, {'c', pc}
+		{'s', pstr}, {'c', pc},
+		{'d', pi}, {'i', pi}
 	};
 
 	*a = *a + 1;
