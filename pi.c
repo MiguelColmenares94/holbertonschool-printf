@@ -11,7 +11,7 @@ int pi(va_list argum)
 	char *itos;
 	int result;
 
-	sprintf(itos, "%d", va_arg(argum, int));
+	sprintf(*itos, "%d", va_arg(argum, int));
 
 	if (itos != NULL)
 	{
