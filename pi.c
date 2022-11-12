@@ -19,7 +19,7 @@ int pi(va_list argum)
 	}
 	else
 	{
-		result = "NULL";
+		text = "NULL";
 	}
 		
 	
