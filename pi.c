@@ -17,7 +17,7 @@ int pi(va_list argum)
 	{
 		for (result = 0; text[result] != '\0'; result++)
 		{
-			putchar(text[result]);
+			_putchar(text[result]);
 		}	
 	}
 	else
