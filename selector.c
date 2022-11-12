@@ -19,7 +19,9 @@ int selector(const char *text, va_list lf, int *a)
 	*a = *a + 1;
 
 	if (text[*a] == '\0')
+	{
 		return (-1);
+	}
 
 	if (text[*a] == '%')
 	{
@@ -38,8 +40,7 @@ int selector(const char *text, va_list lf, int *a)
 
 	}
 
-	_putchar('%');
-	_putchar(text[*a]);
+	_putchar('%'), _putchar(text[*a]);
 
 	return (2);
 }
