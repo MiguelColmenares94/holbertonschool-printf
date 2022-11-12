@@ -6,24 +6,22 @@
  *
  * Return: integer printed as a string
  **/
+
 int pi(va_list argum)
 {
-	char itos[50];
-	int result[50], counter;
+	char *text;
+	int ct;
 
-	sprintf(itos, "%d", va_arg(argum, int));
-
-	if (itos != NULL)
+	text = itos(va_arg(argum, int), 10);
+	if (text != NULL)
 	{
-		for (counter = 0; itos[counter] != '\0'; counter++)
-		{
-			result[counter] == itos[counter];
-		}
+		text = NULL
 	}
-	else
+	
+	for (ct = 0; text[count] != '\0'; ct++)
 	{
-		result = NULL;
-	}
-
-	return (result);
+			_putchar(text[ct]);
+	}		
+	
+	return (ct);
 }
