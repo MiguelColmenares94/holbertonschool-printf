@@ -16,7 +16,7 @@ int pc(va_list);
 int pi(va_list argum);
 
 /* integer to string */
-char *itoa(long int num, int base);
+char *itos(long int num, int base);
 
 /* format controller and format selector */
 int controller(const char *text, va_list lf);
