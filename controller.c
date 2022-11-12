@@ -13,8 +13,7 @@ int controller(const char *text, va_list lf)
 	int result, a, spr;
 
 	result = 0;
-	a = 0;
-	while (text[a] != 0)
+	for (a = 0;text[a] != 0; a++)
 	{
 		if (text[a] == '%')
 		{
@@ -28,7 +27,6 @@ int controller(const char *text, va_list lf)
 
 		_putchar(text[a]);
 		result = result + 1;
-		a++;
 	}
 
 	return (result);
