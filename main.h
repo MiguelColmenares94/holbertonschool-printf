@@ -13,7 +13,10 @@ int _printf(const char *format, ...);
 /* print format functions */
 int pstr(va_list);
 int pc(va_list);
-char* pi(va_list argum);
+int pi(va_list argum);
+
+/* integer to string */
+char *itoa(long int num, int base);
 
 /* format controller and format selector */
 int controller(const char *text, va_list lf);
