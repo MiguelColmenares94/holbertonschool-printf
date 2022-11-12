@@ -11,7 +11,7 @@
 
 int selector(const char *text, va_list lf, int *a)
 {
-	int result, c, select_f;
+	int result, c;
 	fmt fmtl[] = {
 		{'s', pstr}, {'c', pc}
 	};
@@ -29,8 +29,7 @@ int selector(const char *text, va_list lf, int *a)
 		return (1);
 	}
 
-	select_f = sizeof(fmtl) / sizeof(fmtl[0]);
-	for (result = c = 0; c < select_f; c++)
+	for (result = c = 0; fmtl[c].type; c++)
 	{
 		if (text[*a] == fmtl[c].type)
 		{
@@ -40,7 +39,8 @@ int selector(const char *text, va_list lf, int *a)
 
 	}
 
-	_putchar('%'), _putchar(text[*a]);
+	_putchar('%');
+       	_putchar(text[*a]);
 
 	return (2);
 }
