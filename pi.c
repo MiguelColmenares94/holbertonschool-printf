@@ -15,7 +15,10 @@ int pi(va_list argum)
 	text = itos(va_arg(argum, int), 10);
 	if (text != NULL)
 	{
-		result = p(text);
+		for (result = 0; text[result] != '\0'; result++)
+		{
+			p(text);
+		}	
 	}
 	else
 	{
