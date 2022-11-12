@@ -1,0 +1,72 @@
+.TH _printf 3
+
+.SH _printf
+_printf - Print input to output
+
+.SH SYNOPSIS
+#include "main.h"
+
+int _printf(const char *restrict format, ...);
+
+.SH DESCRIPTION
+
+The function _printf() produce output according to a conversion specifier (described below). The output is write to stdout, the standart output stream.
+
+.SH CONVERSION SPECIFIERS
+
+.TP
+.BR %c
+Print a character.
+
+.TP
+.BR %s
+Print a string.
+
+.TP
+.BR %d
+Print a number in base 10(decimal)
+
+.TP
+.BR %i
+Same as %d
+
+.SH FORMAT CONTROL
+
+.TP
+.BR \en
+new line
+
+.SH USE EXAMPLE
+
+.TP
+.B print a char
+
+int len;
+
+char S;
+
+S = A; 
+
+len = _printf("%c\en", S);
+
+.TP
+.B print a string
+
+int len;
+
+len = _printf("%s\en", "This is a string");
+
+.TP
+.B print a decimal number
+
+int len, x;
+
+x = 5;
+
+len = _printf("%d\en", x);
+
+.SH AUTHORS
+
+.B Miguel Colmenares
+
+.B Alex Nuñez
