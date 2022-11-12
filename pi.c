@@ -9,18 +9,16 @@
 int pi(va_list argum)
 {
 	char itos[50];
-	int result;
 
 	sprintf(itos, "%d", va_arg(argum, int));
 
 	if (itos != NULL)
 	{
-		result = itos;
+		return (itos);
 	}
 	else
 	{
-		result = NULL;
+		return ("NULL");
 	}
 
-	return (result);
 }
