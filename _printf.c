@@ -26,8 +26,6 @@ int _printf(const char *format, ...)
 
 	va_start(argum, format);
 	result = controller(format, argum);
-	
-	_putchar(-1);
 	va_end(argum);
 
 	return (result);
