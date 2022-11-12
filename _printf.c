@@ -10,7 +10,7 @@
 
 int _printf(const char *format, ...)
 {
-	int result;
+	unsigned int result;
 	va_list argum;
 
 	if (format == NULL)
