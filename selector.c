@@ -38,7 +38,8 @@ int selector(const char *text, va_list lf, int *a)
 
 	}
 
-	_putchar('%'), _putchar(text[*a]);
+	_putchar('%');
+	_putchar(text[*a]);
 
 	return (2);
 }
