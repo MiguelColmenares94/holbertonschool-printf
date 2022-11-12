@@ -18,7 +18,7 @@ int pstr(va_list argum)
 	}
 	else
 	{
-		return (p("(NULL)"));
+		return (p("(null)"));
 	}
 
 }
