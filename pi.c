@@ -14,7 +14,7 @@ char* pi(va_list argum)
 
 	if (itos != NULL)
 	{
-		return (*itos);
+		return (itos);
 	}
 	else
 	{
