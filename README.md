@@ -1,6 +1,6 @@
-# _printf
+# _prinft
 
-_printf is a program that simulates some of the basic functionalities of the real printf from the standard stdio library. 
+The _printf function is a custom implementation of the C programming function printf. It returns the number of characters printed and writes the output to stdout.
 
 ## Installation
 
@@ -35,7 +35,7 @@ That image shows specifiers that we can use in the printf.  In this case, _print
 |i|print_integer|print a number in base 10|
 |d|print_integer|print a number in base 10|
 
-## Description of functions
+## Description of the main files
 
 a) main.h : It is the one that keeps all the prototypes and the structure of the functions. Additionally, standard library header files can be included. This in order to be used by our created functions.
 
@@ -44,6 +44,19 @@ b) _printf : It is a function that can receive parameters that people assign to 
 c) controller : Verifies that a format handler exists within the format(%).
 
 d) selector : Provides the format specifiers for the character string.
+
+## Files in this repository
+
+a) main.h
+b)_printf.c
+c) controler.c
+d) selector.c
+e) itos.c
+f) pc.c
+g) pi.c
+h) pstr.c
+i) spf.c
+j) man_3_printf
 
 ## Contributing
 
