@@ -48,14 +48,23 @@ d) selector : Provides the format specifiers for the character string.
 ## Files in this repository
 
 a) main.h
+
 b)_printf.c
+
 c) controler.c
+
 d) selector.c
+
 e) itos.c
+
 f) pc.c
+
 g) pi.c
+
 h) pstr.c
+
 i) spf.c
+
 j) man_3_printf
 
 ## Contributing
