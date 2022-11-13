@@ -21,7 +21,7 @@ _printf("%d line of text to print %s and %c formated character\n", 1, followed b
 ```
 
 ## Description of functions
-```bash
+
 a) main.h : It is the one that keeps all the prototypes and the structure of the functions. Additionally, standard library header files can be included. This in order to be used by our created functions.
 
 b) _printf : It is a function that can receive parameters that people assign to it.
@@ -29,7 +29,6 @@ b) _printf : It is a function that can receive parameters that people assign to 
 c) controller : Verifies that a format handler exists within the format(%).
 
 d) selector : Provides the format specifiers for the character string.
-```
 
 ## Contributing
 
