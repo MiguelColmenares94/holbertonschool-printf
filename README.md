@@ -19,11 +19,21 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c *.h -o _printf
 ```bash 
 _printf("%d line of text to print %s and %c formated character\n", 1, followed by a formated string, a);
 ```
+A graphical view of what the "_printf " function does.
 
 ![enter image description here](https://microchipdeveloper.com/local--files/tls2101:printf/printf2.png)
 
 ## Patterns
-![enter image description here](https://www.researchgate.net/profile/Rama-M-A/publication/277143759/figure/fig1/AS:654774466789377@1533121806186/Format-Specifiers-for-scanf-Every-variable-in-the-variable-list-must-match-the.png)
+
+![enter image description here](https://i.stack.imgur.com/BX0ZZ.png)
+
+That image shows specifiers that we can use in the printf.  In this case, _printf just allow specifiers like
+|Specifiers|Functions|Description|
+|--|--|--|
+|s|print_string|print a string|
+|c|print_char|print just a char|
+|i|print_integer|print a number in base 10|
+|d|print_integer|print a number in base 10|
 
 ## Description of functions
 
