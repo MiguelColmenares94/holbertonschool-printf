@@ -20,6 +20,10 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c *.h -o _printf
 _printf("%d line of text to print %s and %c formated character\n", 1, followed by a formated string, a);
 ```
 
+## Patterns
+![enter image description here](D:\HOLBERTON\Printf_function)
+
+
 ## Description of functions
 
 a) main.h : It is the one that keeps all the prototypes and the structure of the functions. Additionally, standard library header files can be included. This in order to be used by our created functions.
