@@ -20,9 +20,10 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c *.h -o _printf
 _printf("%d line of text to print %s and %c formated character\n", 1, followed by a formated string, a);
 ```
 
-## Patterns
-![enter image description here](D:\HOLBERTON\Printf_function)
+![enter image description here](https://microchipdeveloper.com/local--files/tls2101:printf/printf2.png)
 
+## Patterns
+![enter image description here](https://www.researchgate.net/publication/277143759/figure/fig1/AS:654774466789377@1533121806186/Format-Specifiers-for-scanf-Every-variable-in-the-variable-list-must-match-the.png)
 
 ## Description of functions
 
